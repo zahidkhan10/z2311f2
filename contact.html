@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="websitefooter.css">
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #a4d687;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* navbar */
+nav{
+ 	
+   position:fixed;
+   top:0;
+   left:0;
+   width:100%;
+   height:100px;
+   padding:10px 90px;
+   box-sizing: border-box;
+   /* background:rgb(37, 45, 99); */
+   padding-bottom: 5%;
+   /*   */
+   
+ }
+ 
+ nav .logo{
+   padding:22px 20px;
+   height:80px;
+   float:left;
+   font-size:24px;
+   font-weight:bold;
+   text-transform:uppercase;
+   color:#fff;	
+ }
+ #cart{
+   margin-top: 30px;
+   color: #fff;
+ 
+   
+ }
+ 
+ #thumbnail{
+   margin-bottom: 10px;
+ }
+ /* nav ul{
+   list-style:none;
+   float:right;
+   margin:0;
+   padding:0;
+   display:flex;	
+ }
+ nav ul li a{
+   
+   line-height: 80px;
+   color:#fff;
+   padding:12px 30px;
+   text-decoration:none;
+   font-size:14px;
+   font-weight:bold;
+   text-transform:uppercase;
+   position: relative;
+   transform: all 0.3s;
+ }
+ nav ul li a:hover{
+   background:rgb(10, 115, 227);
+   border-radius:6px;
+ } */
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 10px;
+  
+  
+   /* background-image: url(photo-1551958219-acbc608c6377.avif);  */
+  /* padding: 0px; */
+padding-top: 5%; 
+  padding-bottom: 0px; 
+  
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+</style>
+</head>
+<body>
+     <!--navbar-->
+     <nav>
+      <a class="navbar-brand" href="home.html">
+        <img src="./White_Simple_Fashion_Sports_Logo__1_-removebg-preview.png" alt="Logo" width="145px" height="95px" class="d-inline-block align-text-top" id="thumbnail">
+      </a>
+    <ul>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="product.html">PRODUCT</a></li>
+        <li><a href="about.html">ABOUT US</i></a></li>
+       
+        <li><a href="contact.html">Contact us</a></li>
+
+        
+     </ul>
+  </div>
+</nav>
+
+  <nav>
+    <a class="navbar-brand" href="./index.html">
+      <img src="./White_Simple_Fashion_Sports_Logo__1_-removebg-preview.png" alt="Logo" width="145px" height="95px" class="d-inline-block align-text-top" id="thumbnail">
+    </a>
+  <ul>
+      <li><a href="home.html">HOME</a></li>
+      <li><a href="#">PRODUCT</a></li>
+      <li><a href="our members.html">ABOUT US</i></a></li>
+     
+      <li><a href="contact.html">Contact us</a></li>
+
+      <!-- <i class='fas fa-shopping-cart' id="cart"></i> -->
+      
+   </ul>
+</div>
+</nav>
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+ 
+  <div class="row">
+    <div class="column">
+      <img src="photo-1551958219-acbc608c6377.avif" style="width:100%;height:60%">
+    </div>
+    <div class="column">
+      <form action="#">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="Message">Message</label>
+        <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="footer">
+  <div class="container">
+      <div class="row">
+          <div class="footer-col">
+              <h4>Company</h4>
+              <ul>
+                  <li><a href="about.html">about us</a></li>
+                  <li><a href="product.html">Products</a></li>
+                  <li><a href="contact.html">our serves</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                  
+              </ul>
+          </div>
+
+
+
+
+
+
+          <div class="footer-col">
+              <h4>Get help</h4>
+              <ul>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">shipping</a></li>
+                  <li><a href="#">returns</a></li>
+                  <li><a href="#">order status</a></li>
+                  <li><a href="#">payment options</a></li>
+              </ul>
+          </div>
+
+          
+          <div class="footer-col">
+              <h4>Online shop</h4>
+              <ul>
+                  <li><a href="product.html">Footballs</a></li>
+                  <li><a href="product.html">Volleyballs</a></li>
+                  <li><a href="product.html">Basketball</a></li>
+                  <li><a href="product.html">Shoes</a></li>
+              </ul>
+          </div>
+
+
+
+
+
+
+          <div class="footer-col">
+              <h4>Follow me</h4>
+              <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-tiktok"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+  </div>
+</footer>
+
+</body>
+</html>
